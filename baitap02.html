@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2 - Form đăng ký</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Trang chủ</a>
+    <a href="baitap01.html">Bài 1</a>
+    <a href="baitap02.html">Bài 2</a>
+    <a href="baitap03.html">Bài 3</a>
+    <a href="about.html">Giới thiệu</a>
+    <a href="contact.html">Liên hệ</a>
+</nav>
+
+<div class="container">
+    <h2>Form đăng ký</h2>
+
+    <form onsubmit="validateForm(event)">
+        <input id="regName" placeholder="Tên người dùng">
+        <input id="regEmail" type="email" placeholder="Email">
+        <input id="regPass" type="password" placeholder="Mật khẩu">
+
+        <label>
+            <input type="checkbox" id="agree"> Đồng ý điều khoản
+        </label>
+
+        <button type="submit">Đăng ký</button>
+    </form>
+</div>
+
+</body>
+</html>

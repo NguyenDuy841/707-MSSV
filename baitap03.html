@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3 - Countdown Timer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Trang chủ</a>
+    <a href="baitap01.html">Bài 1</a>
+    <a href="baitap02.html">Bài 2</a>
+    <a href="baitap03.html">Bài 3</a>
+    <a href="about.html">Giới thiệu</a>
+    <a href="contact.html">Liên hệ</a>
+</nav>
+
+<div class="container" style="text-align:center;">
+    <h2>Đồng hồ đếm ngược</h2>
+    <div id="countdown">10:00</div>
+    
+    <div class="controls">
+        <button id="startButton" onclick="startTimer()">Bắt đầu</button>
+        <button id="pauseButton" onclick="pauseTimer()">Tạm dừng</button>
+        <button id="resetButton" onclick="resetTimer()">Đặt lại</button>
+    </div>
+</div>
+
+<div class="modal" id="modal">
+    <div class="modal-content">⏰ Hết giờ!</div>
+</div>
+
+</body>
+</html>

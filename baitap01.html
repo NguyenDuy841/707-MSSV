@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1 - Danh sách sản phẩm</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Trang chủ</a>
+    <a href="baitap01.html">Bài 1</a>
+    <a href="baitap02.html">Bài 2</a>
+    <a href="baitap03.html">Bài 3</a>
+    <a href="about.html">Giới thiệu</a>
+    <a href="contact.html">Liên hệ</a>
+</nav>
+
+<div class="container">
+    <h2>Danh sách sản phẩm</h2>
+
+    <input id="searchInput" placeholder="Tìm sản phẩm..." onkeyup="searchProduct()">
+
+    <div id="productList"></div>
+</div>
+
+<script>renderProducts(products);</script>
+</body>
+</html>
